@@ -1,0 +1,16 @@
+:root{
+   --cor-de-fundo: #FFFFFF;
+   font-family: 'Roboto', sans-serif;
+ 
+
+}
+
+.tamanho-fonte{
+    font-size: 20px;
+}
+
+
+
+body{
+    background-color: var(--cor-de-fundo);
+}
