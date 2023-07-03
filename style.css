@@ -1,16 +1,49 @@
 :root{
-   --cor-de-fundo: #FFFFFF;
+   
    font-family: 'Roboto', sans-serif;
- 
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
+  
+   
 
 }
 
 .tamanho-fonte{
     font-size: 20px;
+    color: var(--cinza-secundario);
 }
-
 
 
 body{
     background-color: var(--cor-de-fundo);
 }
+
+.titulo{
+    color: var(--branco-principal);
+}
+
+.tamanho-guias{
+    font-size: medium;
+    color: var(--botao-azul);
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1em;
+}
+
+.lista__link a{
+    text-decoration: none;
+    color: var(--branco-principal);
+    margin-left: 1em;
+}
+
+.lista__link a:hover {
+    color: var(--botao-azul);
+}
+
+.lista__link a:active {
+    color: purple;
+}
+
